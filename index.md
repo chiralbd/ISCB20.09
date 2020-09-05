@@ -66,7 +66,7 @@ R is a programming language and environment commonly used in statistical computi
 * [Control Flow in R](#)
 * [R Data Structure](#)
 * [R Functions](#)
-* [Data Manipulation using dlyr](#)
+* [Data Manipulation using dplyr](#)
 * [Data Visualization using ggplot2](#)
 * [Interactive Data Visualization using Plotly](#)
 

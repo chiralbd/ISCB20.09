@@ -1,0 +1,39 @@
+---
+title: "Introduction to R"
+author: "Jubayer Hossain"
+date: "9/6/2020"
+output:
+  html_document:
+    toc: true
+    toc_depth: 6
+    toc_float: true
+    theme: flatly
+    code_download: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+In this section, you will learn about `R` programming and it's application in the field of statistics, data analytics, data science and research.
+
+## What is R?
+- R is a programming language and environment commonly used in **statistical computing**, **data analytics** and **scientific research**.
+- It is one of the most popular languages used by **statisticians**, **data analysts**, **researchers** and **marketers to retrieve**, clean, analyze, **visualize** and present data.
+
+## Why use R for statistical computing and graphics?
+- R is open source and free!
+- R is popular – and increasing in popularity
+- R runs on all platforms
+- R is being used by the biggest tech giants(google, facebook, microsoft, twitter)
+
+## Applications of R Programming in Real World
+- Data Science
+- Data Analysis 
+- Genomic Data Science 
+- Biological Data Analysis 
+- Mutational Signature Analysis 
+- Genomic Analysis 
+- Statistical Computing
+- Machine Learning
+

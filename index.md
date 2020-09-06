@@ -69,7 +69,7 @@ R is a programming language and environment commonly used in statistical computi
 * [Data Manipulation using dplyr](#)
 * [Data Visualization using ggplot2](#)
 * [Interactive Data Visualization using Plotly](#)
-
+* [url](/pages/page_name.md)
 ### Reference Books
 * [R for Data Science by Roger D.Peng ](https://bookdown.org/rdpeng/rprogdatascience/)
 * [Introduction to Data Science by Rafael Irizarry](https://rafalab.github.io/dsbook/)

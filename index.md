@@ -62,7 +62,7 @@ R is a programming language and environment commonly used in statistical computi
 * Analytics report writing
 
 ### Training Materials
-* [Introduction to R](./pages/notes/introduction.html)
+* [Introduction to R](/pages/introduction.html)
 * [Control Flow in R](#)
 * [R Data Structure](#)
 * [R Functions](#)

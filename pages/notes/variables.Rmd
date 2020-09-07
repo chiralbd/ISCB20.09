@@ -1,5 +1,5 @@
 ---
-title: "Variables in R"
+title: "Variables and Reserved Words in R"
 author: "Jubayer Hossain"
 date: "7 Sep, 2020"
 output:
@@ -12,10 +12,70 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, results = FALSE)
 ```
 
-In this section, you will learn the concepts of variables in R.
+## Variables(Identifiers) in R
+Variables are used to **store data**, whose value can be changed according to our need. Unique name given to variable (function and objects as well) is **identifier**
 
-## What is Variables?
-> Comming Soon...
+## Rules for writing Identifiers in R
+- Identifiers can be a combination of letters, digits, period (.) and underscore (_).
+- It must start with a letter or a period. If it starts with a period, it cannot be followed by a digit.
+- Reserved words in R cannot be used as identifiers.
+
+Basically, there are 5 naming conventions 
+
+- alllowercase: e.g. `myname`
+- period.separated: e.g. `new.name`
+- underscore_separated: e.g. `my_name`
+- lowerCamelCase: e.g. `myName`
+- UpperCamelCase: e.g. `MyName`
+
+## Creating Variables 
+- Using equal(`=`) operator
+```{r}
+x = 10 
+```
+- Using leftward(`<-`) operator 
+```{r}
+y <- 15  
+```
+
+- Using rightward(`->`) operator 
+```{r}
+z <- 20 
+```
+
+## Printing Variables 
+The values of the variables can be printed using `print()` or `cat()` function. The `cat()` function combines multiple items into a continuous print output.
+```{r}
+x = 10 
+print(x)
+```
+
+```{r}
+y <- 15  
+cat(y)
+```
+
+```{r}
+z <- 20  
+z
+```
+
+## Basic Commands 
+Listing variables in workspace using `ls()` and `objects()`
+```{r}
+ls() 
+```
+```{r}
+objects()
+```
+
+##  Reserved Words in R 
+Don't use any reserved keyword as variable name. List all of reserved words in R by using (`?Reserved`). 
+
+The reserved words in R's parser are
+- `if` `else` `repeat` `while` `function` `for` `in` `next` `break`
+- `TRUE` `FALSE` `NULL` `Inf` `NaN` `NA` `NA_integer_ NA_real_ NA_complex_ NA_character_`
+

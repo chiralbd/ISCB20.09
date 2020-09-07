@@ -1,7 +1,7 @@
 ---
 title: "Introduction to R"
 author: "Jubayer Hossain"
-date: "9/6/2020"
+date: "Sep 7, 2020"
 output:
   html_document:
     toc: true
@@ -18,7 +18,16 @@ knitr::opts_chunk$set(echo = TRUE)
 In this section, you will learn about `R` programming and it's application in the field of statistics, data analytics, data science and research.
 
 ## What is R?
-- This is an easy question to answer. R is a dialect of S.
+R is a programming language and free software environment for statistical computing and
+graphics supported by the R Foundation for Statistical Computing. The R language is widely
+used among statisticians and data miners for developing statistical software and data analysis.  [See More](https://en.wikipedia.org/wiki/R_(programming_language))
+
+## Key Points 
+- This is an easy question to answer. R is a dialect of S(R is an
+implementation of the S programming language).
+- R was created by Ross Ihaka and Robert Gentleman at the University of Auckland, New
+Zealand, and is developed by the R Development Core Team.
+
 - R is a programming language and environment commonly used in **statistical computing**, **data analytics** and **scientific research**.
 - It is one of the most popular languages used by **statisticians**, **data analysts**, **researchers** and **marketers to retrieve**, clean, analyze, **visualize** and present data.
 
@@ -38,8 +47,21 @@ In this section, you will learn about `R` programming and it's application in th
 - Statistical Computing
 - Machine Learning
 
+## Important Packages 
+- [dplyr](https://dplyr.tidyverse.org/) -- for data management 
+- [ggplot2](https://ggplot2.tidyverse.org/) -- for static data visualization
+- [Plotly](https://plotly.com/r/) -- for interactive data visualization
+- [tidyverse](https://www.tidyverse.org/) -- combination of `dplyr`, `ggplot2` 
+- [Bioconductor](https://www.bioconductor.org/) -- for genomic data analysis
+- [seqinr](https://cran.r-project.org/web/packages/seqinr/index.html) -- DNA or Protein sequence analysis 
+- [MutatioanlPattern](https://bioconductor.org/packages/release/bioc/html/MutationalPatterns.html) -- mutational signature analysis 
+- [caret](https://topepo.github.io/caret/) -- for machine learning
+
 ## References
 * [R for Data Science by Roger D.Peng ](https://bookdown.org/rdpeng/rprogdatascience/)
 * [Introduction to Data Science by Rafael Irizarry](https://rafalab.github.io/dsbook/)
 * [Data Analysis for the Life Sciences by Rafael Irizarry](https://rafalab.github.io/pagesharvardx.html)
 * [Statistics using R](#)
+* [R for Biologists](R for Biologists)
+* [R for Public Health](http://rforpublichealth.blogspot.com/)
+* [Rmarkdown](https://rmarkdown.rstudio.com/) 

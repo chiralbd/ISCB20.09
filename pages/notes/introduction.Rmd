@@ -28,17 +28,18 @@ In this section, you will learn about `R` programming and it's application in th
 - R runs on all platforms
 - R is being used by the biggest tech giants(google, facebook, microsoft, twitter)
 
-## Applications of R 
+## Applications of R
 - Data Science
-- Data Analysis 
-- Genomic Data Science 
-- Biological Data Analysis 
-- Mutational Signature Analysis 
-- Genomic Analysis 
+- Data Analysis
+- Genomic Data Science
+- Biological Data Analysis
+- Mutational Signature Analysis
+- Genomic Analysis
 - Statistical Computing
 - Machine Learning
 
-## References 
+## References
 * [R for Data Science by Roger D.Peng ](https://bookdown.org/rdpeng/rprogdatascience/)
 * [Introduction to Data Science by Rafael Irizarry](https://rafalab.github.io/dsbook/)
 * [Data Analysis for the Life Sciences by Rafael Irizarry](https://rafalab.github.io/pagesharvardx.html)
+* [Statistics using R](#)

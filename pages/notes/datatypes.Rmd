@@ -1,5 +1,5 @@
 ---
-title: "Variables in R"
+title: "Data Types in R"
 author: "Jubayer Hossain"
 date: "7 Sep, 2020"
 output:
@@ -15,7 +15,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-In this section, you will learn the concepts of variables in R.
+In this section, you will learn the concepts of data types in R.
 
-## What is Variables?
+## Data Types in R 
 > Comming Soon...

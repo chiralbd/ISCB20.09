@@ -1,34 +1,30 @@
 ---
-title: "Introduction to R"
-author: "Jubayer Hossain"
-date: "9/6/2020"
+title: "R for Health Data Analysis(R4HDA)"
+author: \textbf{Jubayer Hossain}
+date: Sep 06, 2020
 output:
-  html_document:
-    toc: true
-    toc_depth: 6
-    toc_float: true
-    theme: flatly
-    code_download: true
+  beamer_presentation: 
+    fig_caption: yes
+    fig_height: 6
+    fig_width: 7
+    fonttheme: structurebold
+    theme: Madrid
+classoption: "aspectratio=169"
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-In this section, you will learn about `R` programming and it's application in the field of statistics, data analytics, data science and research.
 
 ## What is R?
 - This is an easy question to answer. R is a dialect of S.
 - R is a programming language and environment commonly used in **statistical computing**, **data analytics** and **scientific research**.
 - It is one of the most popular languages used by **statisticians**, **data analysts**, **researchers** and **marketers to retrieve**, clean, analyze, **visualize** and present data.
 
-## Why R?
+## Why use R for statistical computing and graphics?
 - R is open source and free!
 - R is popular – and increasing in popularity
 - R runs on all platforms
 - R is being used by the biggest tech giants(google, facebook, microsoft, twitter)
 
-## Applications of R 
+
+## Applications of R Programming in Real World
 - Data Science
 - Data Analysis 
 - Genomic Data Science 
@@ -37,8 +33,3 @@ In this section, you will learn about `R` programming and it's application in th
 - Genomic Analysis 
 - Statistical Computing
 - Machine Learning
-
-## References 
-* [R for Data Science by Roger D.Peng ](https://bookdown.org/rdpeng/rprogdatascience/)
-* [Introduction to Data Science by Rafael Irizarry](https://rafalab.github.io/dsbook/)
-* [Data Analysis for the Life Sciences by Rafael Irizarry](https://rafalab.github.io/pagesharvardx.html)
